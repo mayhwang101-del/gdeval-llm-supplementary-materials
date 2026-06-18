@@ -1,0 +1,55 @@
+{
+  "scale": {"min": 1, "max": 7, "type": "Likert"},
+  "criteria": [
+    {
+      "code": "C1",
+      "name": "Visual Hierarchy & Layout",
+      "definition": "Whether information priority is visually organized; whether grid, whitespace, alignment, and balance are deliberately controlled.",
+      "anchors": {
+        "1": "Elements are disorganized; no readable visual flow; alignment and spacing uncontrolled.",
+        "4": "Basic alignment and balance present, but hierarchy is flat and contrast weak.",
+        "7": "Visual flow is clearly designed; grid, whitespace, and emphasis are precisely controlled."
+      }
+    },
+    {
+      "code": "C2",
+      "name": "Typography",
+      "definition": "Whether typeface choice, hierarchy, spacing, and readability are appropriate and aligned with message and tone.",
+      "anchors": {
+        "1": "Poor readability; no typographic hierarchy; mismatched with tone.",
+        "4": "Readable but conventional typeface use; monotonous hierarchy.",
+        "7": "Typeface choice, hierarchy, and spacing are refined and actively reinforce the message tone."
+      }
+    },
+    {
+      "code": "C3",
+      "name": "Color",
+      "definition": "Whether the palette's harmony, contrast, and consistency are appropriate and contribute to meaning and hierarchy.",
+      "anchors": {
+        "1": "Color use is arbitrary; contrast and harmony broken; interferes with message.",
+        "4": "Palette is acceptable but color does not actively contribute to communication.",
+        "7": "Palette is harmonious, contrast controlled, reinforcing hierarchy and meaning."
+      }
+    },
+    {
+      "code": "C4",
+      "name": "Concept & Communication",
+      "definition": "Whether the theme/message is communicated clearly; whether the concept is original and effectively translated into visual language.",
+      "anchors": {
+        "1": "Message is unclear; concept is cliched or disconnected from the visuals.",
+        "4": "Message comes across but the concept is ordinary with much room for interpretation.",
+        "7": "Message is clear; concept is original and persuasively realized in visual language."
+      }
+    },
+    {
+      "code": "C5",
+      "name": "Craft & Finish",
+      "definition": "Whether production quality (finishing, precision, consistency) is high and detailing is professional.",
+      "anchors": {
+        "1": "Rough finishing; multiple errors/inconsistencies; feels unfinished.",
+        "4": "Generally tidy but partial finishing/consistency issues.",
+        "7": "Finishing and detailing are precise and consistent, showing professional craft."
+      }
+    }
+  ]
+}
